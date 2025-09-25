@@ -65,38 +65,46 @@ exiftool -r /path/to/folder
 <img width="1024" height="1024" alt="Gemini_Generated_Image_3dvkon3dvkon3dvk" src="https://github.com/user-attachments/assets/372342a2-4df2-4a81-a15f-843f3b8ed17a" />
 
 - ```-time:all: Show only timestamps```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_b2zua0b2zua0b2zu" src="https://github.com/user-attachments/assets/ceaef9f5-fd7c-406e-a3ab-166d701a3e02" />
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_mfn3rumfn3rumfn3" src="https://github.com/user-attachments/assets/8fd246cf-288a-4411-b0b6-439d564325a4" />
 
 
 ### install log2timeline
 ```
 sudo apt install plaso -y
 ```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_i0cqb7i0cqb7i0cq" src="https://github.com/user-attachments/assets/f23f966c-8d3a-4d47-b191-d42e0f6f6488" />
 
 ```
 sudo apt install steghide -y
 ```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_owet0rowet0rowet" src="https://github.com/user-attachments/assets/6a25cd33-a6e5-4b12-9ebc-87abdf258e92" />
+
 - **Embed data**
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_zfas1rzfas1rzfas" src="https://github.com/user-attachments/assets/1d015ff0-c984-4fe3-8b6c-b9c415236a98" />
 
 - **Extract hidden data:**
 ```
 steghide extract -sf hidden.jpg
-
 ```
-
+<img width="1024" height="1024" alt="Gemini_Generated_Image_s7pywts7pywts7py" src="https://github.com/user-attachments/assets/6e4f16ef-cd6a-4cdf-b311-a9725d392742" />
 
 ### Using binwalk – for file analysis
 ```bash
 sudo apt install binwalk -y
 binwalk suspicious.jpg
 ```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_tfjprqtfjprqtfjp" src="https://github.com/user-attachments/assets/43e8453f-930f-4e24-acda-85da6e831d7b" />
+
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+<img width="1024" height="1024" alt="Gemini_Generated_Image_o51szvo51szvo51s" src="https://github.com/user-attachments/assets/33b47c36-ce8f-413e-8b70-fc48da8aa464" />
 
 
 ## RESULT:
