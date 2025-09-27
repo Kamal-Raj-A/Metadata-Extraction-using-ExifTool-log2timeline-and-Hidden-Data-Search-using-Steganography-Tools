@@ -42,69 +42,64 @@ Apply steganography detection tools like steghide, zsteg, or binwalk to uncover 
 sudo apt update
 sudo apt install exiftool -y
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_egcy3fegcy3fegcy" src="https://github.com/user-attachments/assets/de788213-88f6-4d5c-9d76-148e46335209" />
+<img width="846" height="786" alt="image" src="https://github.com/user-attachments/assets/de8a8b6a-21f8-4cd9-b428-0f5e1c69edf9" />
 
 - **Extract metadata from a file:**
 ```bash
 exiftool image.jpg
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_e1xgtwe1xgtwe1xg" src="https://github.com/user-attachments/assets/a38da102-a6b9-4963-b4b0-e1846e78d4b0" />
+<img width="897" height="622" alt="image" src="https://github.com/user-attachments/assets/89e64efa-738e-4718-8ce1-180073c8b214" />
 
 - **Batch process a folder:**
   
 ```bash
 exiftool -r /path/to/folder
 ```
-
-<img width="1024" height="1024" alt="Gemini_Generated_Image_5nt63r5nt63r5nt6" src="https://github.com/user-attachments/assets/ab07eb64-3179-42e4-832f-64ef0cef12d8" />
-
+<img width="899" height="652" alt="image" src="https://github.com/user-attachments/assets/a37c4e58-951a-401a-9e0f-658f52d89b58" />
 
 - **Useful flags:**
   
 - ```-G: Show metadata group```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_3dvkon3dvkon3dvk" src="https://github.com/user-attachments/assets/372342a2-4df2-4a81-a15f-843f3b8ed17a" />
 
 - ```-time:all: Show only timestamps```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_b2zua0b2zua0b2zu" src="https://github.com/user-attachments/assets/ceaef9f5-fd7c-406e-a3ab-166d701a3e02" />
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_mfn3rumfn3rumfn3" src="https://github.com/user-attachments/assets/8fd246cf-288a-4411-b0b6-439d564325a4" />
+<img width="898" height="636" alt="image" src="https://github.com/user-attachments/assets/f001616c-2bec-46ad-84c6-4e937ba151bc" />
 
 
 ### install log2timeline
 ```
 sudo apt install plaso -y
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_i0cqb7i0cqb7i0cq" src="https://github.com/user-attachments/assets/f23f966c-8d3a-4d47-b191-d42e0f6f6488" />
+<img width="905" height="651" alt="image" src="https://github.com/user-attachments/assets/e0d9c437-3706-4272-9d6c-8e3b02e240ea" />
 
 ```
 sudo apt install steghide -y
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_owet0rowet0rowet" src="https://github.com/user-attachments/assets/6a25cd33-a6e5-4b12-9ebc-87abdf258e92" />
+<img width="899" height="525" alt="image" src="https://github.com/user-attachments/assets/2a0043cc-8982-4db3-9492-9ecf61ceaa9d" />
 
 - **Embed data**
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_zfas1rzfas1rzfas" src="https://github.com/user-attachments/assets/1d015ff0-c984-4fe3-8b6c-b9c415236a98" />
+<img width="892" height="774" alt="image" src="https://github.com/user-attachments/assets/5d79399b-03e5-4e70-a667-372473216ec7" />
 
 - **Extract hidden data:**
 ```
 steghide extract -sf hidden.jpg
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_s7pywts7pywts7py" src="https://github.com/user-attachments/assets/6e4f16ef-cd6a-4cdf-b311-a9725d392742" />
+<img width="894" height="753" alt="image" src="https://github.com/user-attachments/assets/8b2ea77e-109a-4c6d-a8d2-f7a9e00c4e9e" />
 
 ### Using binwalk – for file analysis
 ```bash
 sudo apt install binwalk -y
 binwalk suspicious.jpg
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_tfjprqtfjprqtfjp" src="https://github.com/user-attachments/assets/43e8453f-930f-4e24-acda-85da6e831d7b" />
+<img width="897" height="486" alt="image" src="https://github.com/user-attachments/assets/e1253890-eb8a-4cfe-9eee-3de2e79c4ec4" />
 
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
-<img width="1024" height="1024" alt="Gemini_Generated_Image_o51szvo51szvo51s" src="https://github.com/user-attachments/assets/33b47c36-ce8f-413e-8b70-fc48da8aa464" />
 
 
 ## RESULT:
